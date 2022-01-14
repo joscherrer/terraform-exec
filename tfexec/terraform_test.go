@@ -92,7 +92,6 @@ func TestCheckpointDisablePropagation(t *testing.T) {
 		assertCmd(t, []string{
 			"init",
 			"-no-color",
-			"-force-copy",
 			"-input=false",
 			"-lock-timeout=0s",
 			"-backend=true",
@@ -124,7 +123,6 @@ func TestCheckpointDisablePropagation(t *testing.T) {
 		assertCmd(t, []string{
 			"init",
 			"-no-color",
-			"-force-copy",
 			"-input=false",
 			"-lock-timeout=0s",
 			"-backend=true",
